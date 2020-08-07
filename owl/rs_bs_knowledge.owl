@@ -6,8 +6,13 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://github.com/sanic/rs_bs_knowledge/owl/rs_bs_knowledge.owl">
-    </owl:Ontology>
+     <owl:Ontology rdf:about="http://github.com/sanic/rs_bs_knowledge/owl/rs_bs_knowledge.owl">
+     </owl:Ontology>
 
-    <owl:Class rdf:about="http://github.com/sanic/rs_bs_knowledge/owl/rs_bs_knowledge.owl#Muesli"/>
+    <owl:Class rdf:about="http://github.com/sanic/rs_bs_knowledge/owl/rs_bs_knowledge.owl#Food"/>
+
+    <owl:Class rdf:about="http://github.com/sanic/rs_bs_knowledge/owl/rs_bs_knowledge.owl#Muesli">
+      <rdfs:subClassOf rdf:resource="http://github.com/sanic/rs_bs_knowledge/owl/rs_bs_knowledge.owl#Food"/>
+    </owl:Class>
+
 </rdf:RDF>
